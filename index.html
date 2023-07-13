@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="position_first">
+        <button onclick="reset()" id="playagainsize" >Play Again</button>
+        <p class="lettersize">(Between 1 and 100)</p>
+    </div>
+    <h1 id="position_second">Guess My Number!</h1>
+    <div id="position_third">
+        <div class="box_1"></div>
+        <div id="box_2">?</div>
+        <div class="box_1"></div>
+    </div>
+    <div id="position_fourth">
+        <div id="position_fourth_1">
+            <input type="number" id="guess" class="">
+            <button onclick="check()" id="checkheight">Check</button>
+        </div>
+        <div id="position_fourth_2">
+            <p id="message" class="lettersize_1">Start guessing.....</p>
+            <p class="lettersize_2">💯chances : <span class="chances">100</span></p>
+            <p class="lettersize_2">🥇Highscore : <span class="highscore">0</span></p>
+        </div>
+    </div>
+    
+</body>
+</html>
