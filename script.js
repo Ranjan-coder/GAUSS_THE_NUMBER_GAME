@@ -13,7 +13,7 @@ function reset(){
     document.querySelector(".btn").style.visibility = "visible";
 }
 
-
+// random number function
 function random(n){
     return Math.floor(Math.random()*n)+1
 }
